@@ -57,8 +57,7 @@ def generate_reports(df_merged):
     ]]
 
     # 生成按日聚合的MTM报告
-    df_daily_mtm = df_merged.dropna(subset=['Price'])
-    daily_report = df_daily_mtm.groupby('Price Date').agg(
+    daily_report = df_merged.groupby('Price Date').agg(
         Total_MTM_Value=('MTM Value', 'sum'),
         Contract_Count=('Contract_Ref', 'count')
     ).reset_index().sort_values('Price Date')
