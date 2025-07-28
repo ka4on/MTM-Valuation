@@ -1,0 +1,8 @@
+product used: ChatGPT
+
+prompt:
+1. Could you help me structure a clean Python script to calculate MTM based on the formula provided using example data?
+
+2. make it as close to deployable version as possible.
+
+
