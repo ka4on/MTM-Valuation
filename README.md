@@ -3,7 +3,8 @@
 A deployable Python script that generates Market-to-Market valuation reports for iron ore contracts.
 
 ## Structure
-
+- `data`: example data
+- `output`: example report based on given data
 - `main.py`: Entrypoint script to generate reports
 - `config.py`: Input/output paths
 - `utils.py`: Contains core functions
